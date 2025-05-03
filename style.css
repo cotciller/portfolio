@@ -9,14 +9,23 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
-
-.menu ul{
-  
+ul{
     list-style-type:none;
-    display: flex;
-    justify-content: center;
-    gap: 40px;
+}
 
+a{
+    text-decoration: none;
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: 900;
+    margin-bottom: 22px;
+}
+
+h2{
+    color: #03045e;
 }
 
 .promo{
@@ -25,22 +34,22 @@ body{
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-h1{
-    color: white;
-    text-align: center;
-    font-weight: 900;
-
-    margin-bottom: 22px;
+.menu ul{
+    display: flex;
+    justify-content: center;
+    gap: 40px;
 }
 
-a{
+.menu a{
     color: #fff;
-    text-decoration: none;
     font-weight: 900;
 }
 
 
-.about{
+
+
+
+.about, .skills, .project, .contact{
     padding: 40px;
     margin: 20px auto;
     max-width: 900px;
@@ -51,7 +60,6 @@ a{
 }
 
 .about__title{
-    color: #03045e;
     margin-bottom: 20px;
 }
 
@@ -63,34 +71,27 @@ a{
 .about__image{
     width: 400px;
     border-radius: 30px;
-    view-timeline-axis: ;
 }
 
 
-.skills{
-    padding: 40px;
-    margin: 20px auto;
-    max-width: 900px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
+.skills__title{
+    margin-bottom: 30px;
 }
-.c{
-    padding: 40px;
-    margin: 20px auto;
-    max-width: 900px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
+
+
+.skills ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
-.d{
-    padding: 40px;
-    margin: 20px auto;
-    max-width: 900px;
-    background: white;
-    border-radius: 12px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-    text-align: center;
+
+.skills li {
+        padding: 10px 20px;
+        border-radius: 50px;
+        background: linear-gradient(45deg, #0077b6, #00b4d8);
+}
+
+.skills a {
+    color: #fff;
+    font-weight: 900;
 }
